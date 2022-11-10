@@ -1,0 +1,28 @@
+<app-nav-bar></app-nav-bar>
+<div class="container">
+  <h1>Employee Details</h1>
+
+  <button class="button button-primary">Add Employee</button>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Employee Id</th>
+        <th>Employee Name</th>
+        <th>Phone Number</th>
+        <th>Mail Id</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let desg of desgs">
+      <tr>
+        <th scope="row">1</th>
+        <td>id</td>
+        <td>name</td>
+        <td>345423234</td>
+        <td>asdf@asdf.com</td>
+        <td>945/234 Chenais</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
